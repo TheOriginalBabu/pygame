@@ -1,29 +1,19 @@
-# Simple pygame program
-
-# Import and initialize the pygame library
-import pygame
-pygame.init()
-
-# Set up the drawing window
-screen = pygame.display.set_mode([500, 500])
-
-# Run until the user asks to quit
-running = True
-while running:
-
-    # Did the user click the window close button?
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-
-    # Fill the background with white
-    screen.fill((255, 255, 255))
-
-    # Draw a solid blue circle in the center
-    pygame.draw.circle(screen, (0, 0, 255), (250, 250), 75)
-
-    # Flip the display
-    pygame.display.flip()
-
-# Done! Time to quit.
-pygame.quit()
+dmFyaWFibGUx=input
+dmFyaWFibGUy=print
+a2lsbG1l = 16
+import random as dmFyaWFibGVy
+bG1mYW9o = a2lsbG1l - 16
+c2Nvb2J5 = a2lsbG1l - 12
+dmFyaWFibGUz=dmFyaWFibGUx('Hello, what is your name? ')
+Ym9yZWRk = bG1mYW9o + 2
+dmFyaWFibGU0=False
+def dmFyaWFibGU1():
+	try:dmFyaWFibGU2=int(dmFyaWFibGUx('What is your age? '));return dmFyaWFibGU2
+	except:dmFyaWFibGUy('Error in age input');dmFyaWFibGU1()
+dmFyaWFibGU0=dmFyaWFibGU1()
+dmFyaWFibGU3=['Dinky','Doofus','Stupid','Dumbbutt','Disgrace to society']
+if dmFyaWFibGU0<10:dmFyaWFibGU3=dmFyaWFibGU3[dmFyaWFibGVy.randrange(bG1mYW9o,Ym9yZWRk)]
+elif dmFyaWFibGU0>=10 and dmFyaWFibGU0==a2lsbG1l:dmFyaWFibGU3=dmFyaWFibGU3[dmFyaWFibGVy.randrange(bG1mYW9o,3)]
+elif dmFyaWFibGU0>=a2lsbG1l:dmFyaWFibGU3=dmFyaWFibGU3[dmFyaWFibGVy.randrange(3,c2Nvb2J5)]
+if dmFyaWFibGU0<bG1mYW9o:dmFyaWFibGUy('Negative age number.')
+dmFyaWFibGUy(f"{dmFyaWFibGUz}, you are a {dmFyaWFibGU3}")
