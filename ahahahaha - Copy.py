@@ -9,32 +9,26 @@ try:
 except:
     print("invalid input")
 
-currencychoice = ["Vrobits","Blointoint","Frazoint","Gazoontight","Clickwick","Drobzit"]
-Vrobit = 1 
+currencychoice = ["Vrobits","CAD"]
+
 Drobzit = 100000 
 Clickwich = 50000
 Gazoontight = 10000
 Frazoint = 1000
 Blointoint = 500
+Vrobit = 1 
 
-exchange = input ("What currency is being traded in? ")
-exchange1 = input ("What currency is to be returned? ")
-if exchange == True and exchange1 == True:
+
+exchangein = input("What currency is being traded in? ")
+exchangeout = input("What currency is to be returned? ")
+
+if exchangein == True and exchangeout == True:
     print ("Moving to calculations...")
-elif exchange == True and exchange1 == False:
+elif exchangein == True and exchangeout == False:
     print ("Invalid return currency. Please reenter.")
-elif exchange == False and exchange1 == True:
+elif exchangein == False and exchangeout == True:
     print ("Invalid currency input. Please reenter.")
-elif exchange == False and exchange1 == False:
+elif exchangein == False and exchangeout == False:
     print ("Inputs invalid. Please try again.")
 else:
     print ("What are you doing? Enter a number, a valid one, please.")
-
-if cashmoney%Drobzit == 0
-    and cashmoney%Clickwich == 0
-    and cashmoney%Gazoontight == 0
-    and cashmoney%Frazoint == 0
-    and cashmoney%Blointoint == 0: 
-return Vrobits #i have no idea how to do this 
-
-print ("Your return is ")
